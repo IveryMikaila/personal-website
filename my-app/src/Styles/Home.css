@@ -87,13 +87,12 @@ margin-left:50%;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-end;
   margin-left: 50px;
 }
-.home-intro p{
-    margin-bottom: 40px;
+.home-title{
+    font-size: 50px;
 }
-
 .home-intro a{
     text-decoration: none;
     color: var(--white);
@@ -101,6 +100,8 @@ border: 1px solid var(--white);
     padding: 20px;
     border-radius: 50px;
     transition: all 300ms ease-in-out;
+    display: inline-block;
+    margin-top: 60px;
 }
 .home-intro a:hover{
     background-color: var(--white);
@@ -109,9 +110,19 @@ border: 1px solid var(--white);
 .home-footer a{
     color: var(--accent-color);
 }
+.home-footer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 .home-title{
     font-family: "theme-font";
 }
 .home-intro,.home-footer {
     font-family: "secondary-font";
+}
+@media screen and (max-width: 667px) {
+    .home-content{
+        margin-left: 20px;
+    }
+
 }

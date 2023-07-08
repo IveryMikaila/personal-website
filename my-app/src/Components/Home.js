@@ -19,7 +19,7 @@ const Home = () => {
   <div className='home-footer'>
     Check me out on <a href='https://www.linkedin.com/in/mikaila-ivery-259218223/' target='_blank'>Linkedin</a>, <a href='https://www.youtube.com/watch?v=hMif-EdLGAs&t=20s&ab_channel=MikailaIvery' target='_blank'>Youtube</a>, and <a href='https://github.com/IveryMikaila' target='_blank'>GitHub.</a>
     
-    <p>Download <a href={resume} download="Resume">my resume </a>(PDF 85kb)</p>
+    <p>Download <a href={resume} download="Resume">my resume </a>(PDF 85kb).</p>
   </div>
   </div>
 </div>
