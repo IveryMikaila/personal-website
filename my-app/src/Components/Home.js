@@ -1,9 +1,16 @@
 import '../Styles/Home.css'
-//Component Imports
+import ScrollAnimation from './SectionWipes2';
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+<div className='home-container'>
+<div className='home-section'>
+Home Test
+</div>
+<ScrollAnimation />
+</div>
+    </>
   )
 }
 
