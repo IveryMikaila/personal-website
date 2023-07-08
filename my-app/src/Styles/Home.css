@@ -1,3 +1,10 @@
+:root{
+    --black:#000000;
+    --white:#FFFFFF;
+    --accent-color:#F62680;
+}
+
+/* Universal Styles */
 html,body{
     margin: 0;
     width: 100%;
@@ -10,5 +17,10 @@ html,body{
 }
 .home-section{
     width: 50%;
-    background-color: aquamarine;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: var(--black);
+    color: var(--white);
 }

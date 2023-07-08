@@ -5,9 +5,7 @@ const Home = () => {
   return (
     <>
 <div className='home-container'>
-<div className='home-section'>
-This is the Home Page
-</div>
+<div className='home-section'>Home</div>
 <ScrollAnimation />
 </div>
     </>

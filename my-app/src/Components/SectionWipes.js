@@ -4,7 +4,7 @@ import { Controller, Scene } from 'react-scrollmagic';
 
 const SectionWipesStyled = styled.div`
 width: 50%;
-background-color:yellow;
+margin-left:50%;
 
   .panel {
     height: 100vh;
@@ -26,6 +26,9 @@ background-color:yellow;
   .panel.four {
     background-color: #953543;
   }
+  .panel.five {
+    background-color: #f62680;
+  }
 
 `;
 
@@ -34,23 +37,28 @@ const SectionWipes = () => (
     <Controller globalSceneOptions={{ triggerHook: 'onLeave' }}>
       <Scene pin>
         <div className="panel one">
-<div>FIRST</div>
+<div>VIDEO</div>
 
         </div>
       </Scene>
       <Scene pin>
         <div className="panel two">
-        <div>SECOND</div> 
+        <div>ABOUT</div> 
         </div>
       </Scene>
       <Scene pin>
         <div className="panel three">
-            <div>THIRD</div>
+            <div>BRANDS</div>
         </div>
       </Scene>
       <Scene pin>
         <div className="panel four">
-            <div>FOURTH</div>
+            <div>TESTIMONIALS</div>
+        </div>
+      </Scene>
+      <Scene pin>
+        <div className="panel five">
+            <div>WORK/CONTACT</div>
         </div>
       </Scene>
     </Controller>
