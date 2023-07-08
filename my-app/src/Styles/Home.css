@@ -7,6 +7,11 @@
     font-family: "theme-font";
     src: url('../assets/ArchivoBlack-Regular.ttf');
 }
+@font-face {
+    font-family: "secondary-font";
+    src: url('../assets/DidactGothic-Regular.ttf');
+}
+
 
 html,body{
     margin: 0;
@@ -106,4 +111,7 @@ border: 1px solid var(--white);
 }
 .home-title{
     font-family: "theme-font";
+}
+.home-intro,.home-footer {
+    font-family: "secondary-font";
 }
