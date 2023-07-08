@@ -1,7 +1,5 @@
-import React from 'react'
+import '../Styles/Home.css'
 //Component Imports
-
-
 
 const Home = () => {
   return (
