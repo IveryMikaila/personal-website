@@ -3,6 +3,10 @@
     --white:#FFFFFF;
     --accent-color:#F62680;
 }
+@font-face {
+    font-family: "theme-font";
+    src: url('../assets/ArchivoBlack-Regular.ttf');
+}
 
 html,body{
     margin: 0;
@@ -21,7 +25,7 @@ margin-left:50%;
   }
     
   .panel.one {
-    background-color: #3883d8;
+    background-color: #02070F;
   }
   
   .panel.two {
@@ -99,4 +103,7 @@ border: 1px solid var(--white);
 }
 .home-footer a{
     color: var(--accent-color);
+}
+.home-title{
+    font-family: "theme-font";
 }
