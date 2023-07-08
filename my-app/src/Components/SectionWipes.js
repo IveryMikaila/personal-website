@@ -1,39 +1,10 @@
 import React from 'react';
-import styled from 'styled-components';
+import '../Styles/Home.css'
 import { Controller, Scene } from 'react-scrollmagic';
 
-const SectionWipesStyled = styled.div`
-width: 50%;
-margin-left:50%;
-
-  .panel {
-    height: 100vh;
-  }
-    
-  .panel.one {
-    background-color: #3883d8;
-  }
-  
-  .panel.two {
-    background-color: #38ced7;
-  }
-  
-  .panel.three {
-    background-color: #22d659;
-    margin-bottom: 800px;
-  }
-  
-  .panel.four {
-    background-color: #953543;
-  }
-  .panel.five {
-    background-color: #f62680;
-  }
-
-`;
 
 const SectionWipes = () => (
-  <SectionWipesStyled>
+  <div className='animation-container'>
     <Controller globalSceneOptions={{ triggerHook: 'onLeave' }}>
       <Scene pin>
         <div className="panel one">
@@ -62,7 +33,7 @@ const SectionWipes = () => (
         </div>
       </Scene>
     </Controller>
-  </SectionWipesStyled>
+  </div>
 );
 
 export default SectionWipes;
