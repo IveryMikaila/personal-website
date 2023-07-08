@@ -1,0 +1,14 @@
+html,body{
+    margin: 0;
+    width: 100%;
+}
+
+/* Home Section */
+.home-container{
+    display: flex;
+    justify-content: center;
+}
+.home-section{
+    width: 50%;
+    background-color: aquamarine;
+}
