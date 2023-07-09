@@ -32,6 +32,7 @@ width: 50%;
     background-image: url('../assets/brain.gif');
     background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   }
   
   .panel.two {
@@ -62,4 +63,70 @@ width: 50%;
    height: 100vh;
    position: sticky;
    top: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   padding-left: 30px;
+   font-family: "secondary-font";
+}
+.home-section a{
+    color: var(--accent-color);
+}
+
+h1.home-title{
+    font-family: "theme-font";
+    font-size: 40px;
+}
+.home-button{
+    display: inline-block;
+    text-decoration: none;
+    color: var(--white) !important;
+    border: 1px solid var(--white);
+    padding: 20px;
+    border-radius: 50px;
+}
+.home-button:hover{
+    background-color: var(--white);
+    color: var(--black) !important;
+}
+
+@media screen and (max-width:667px){
+    .animation-container{
+        width: 100%;
+        }
+        .panel.one {
+            background-size: contain;
+        }
+    .home-container{
+        flex-direction: column;
+    } 
+    .home-section{
+        width: 100%;
+        padding-left: 10px;
+        position: relative;
+    }
+    h1.home-title{
+        font-size: 25px;
+    }
+    
+}
+@media screen and (max-height:500px){
+    .animation-container{
+        width: 100%;
+        }
+        .panel.one {
+            background-size: contain;
+        }
+    .home-container{
+        flex-direction: column;
+    } 
+    .home-section{
+        width: 100%;
+        padding-left: 10px;
+        position: relative;
+    }
+    h1.home-title{
+        font-size: 25px;
+    }
+    
 }
