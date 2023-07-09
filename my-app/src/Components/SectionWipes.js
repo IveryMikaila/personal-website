@@ -1,14 +1,13 @@
 import React from 'react';
 import '../Styles/Home.css'
 import { Controller, Scene } from 'react-scrollmagic';
-import image from '../assets/brain.gif'
+
 
 const SectionWipes = () => (
   <div className='animation-container'>
     <Controller globalSceneOptions={{ triggerHook: 'onLeave' }}>
       <Scene pin>
         <div className="panel one">
-<img width="100%" height="100%" src={image} alt='brain x-ray'/>
         </div>
       </Scene>
       <Scene pin>

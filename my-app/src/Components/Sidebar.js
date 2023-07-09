@@ -7,10 +7,13 @@ const showMenu = () => setMenu(!menu);
 
 
   return (
-    <>
-      <nav className='nav-wrapper'>
-      <svg className='nav-icon' onClick={showMenu} stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0h24v24H0z"></path><path d="M3 4h18v2H3V4zm0 7h12v2H3v-2zm0 7h18v2H3v-2z"></path></g></svg>
-<ul className={menu ? 'nav-links active' : 'nav-links'}>
+    <div className='nav-container'>
+      {/* Nav Button */}
+       <svg className='nav-icon' onClick={showMenu} stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0h24v24H0z"></path><path d="M3 4h18v2H3V4zm0 7h12v2H3v-2zm0 7h18v2H3v-2z"></path></g></svg>
+
+       {/* Navigation */}
+      <nav className={menu ? 'nav-wrapper active' : 'nav-wrapper'}>
+<ul className='nav-links'>
   <li>
     <a className='nav-link' href='#about'>About</a>
     <p>A little glimpse into who I am and my code journey.</p>
@@ -33,7 +36,7 @@ const showMenu = () => setMenu(!menu);
     </li>
 </ul>
       </nav>
-    </>
+    </div>
   )
 }
 
