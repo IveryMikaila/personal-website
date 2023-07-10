@@ -1,0 +1,31 @@
+:root{
+    --black:#000000;
+    --white:#FFFFFF;
+    --accent-color:#F62680;
+}
+@font-face {
+    font-family: "theme-font";
+    src: url('../assets/ArchivoBlack-Regular.ttf');
+}
+@font-face {
+    font-family: "secondary-font";
+    src: url('../assets/DidactGothic-Regular.ttf');
+}
+
+
+.about-container{
+    background-color:var(--white) ;
+    color: grey;
+    font-family: "secondary-font";
+  margin: 0px 50px 50px;
+}
+
+.about-main-heading, .about-second-heading, .about-content-title{
+    color: var(--black);
+}
+.about-main-heading{
+    font-family: "theme-font";   
+}
+.about-footnote{
+    margin-top: 60px;
+}

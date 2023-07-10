@@ -17,7 +17,7 @@ const SectionWipes = () => (
       </Scene>
       <Scene pin>
         <div className="panel two">
-       <About />
+       <About  />
         </div>
       </Scene>
       <Scene pin>
