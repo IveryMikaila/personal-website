@@ -41,7 +41,7 @@ width: 50%;
   }
   
   .panel.three {
-    background-color: #22d659;
+    background-color:var(--white);
     margin-bottom: 800px;
   }
   
