@@ -29,16 +29,21 @@
     font-family: "moojy-two";
     src: url('../assets/brandFonts/moojy2.ttf');
 }
-.brand-wrappers{
-    display: flex;
-flex-wrap: wrap;
+
+.brand-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    min-height: 100vh;
+    min-height: calc(var(--vh, 1vh)*100);
+    margin: 0;
+    grid-gap: 2px
 }
+
 .brand-card{
     background-color: #F1F1F1;
     color: var(--black);
     position: relative;
-    width: 50%;
-    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,11 +52,17 @@ flex-wrap: wrap;
 }
 .brand-content{
    background-color: var(--white);
+   color: var(--black);
    position: absolute;
    top: 0;
    bottom: 0;
    opacity: 0;
    transition: all 300ms ease-in-out;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "secondary-font";
 }
 
 .brand-card:hover > .brand-content{
@@ -73,5 +84,4 @@ flex-wrap: wrap;
 }
 .moojy-font2{
     font-family: "moojy-two";
-    text-align: right;
 }
