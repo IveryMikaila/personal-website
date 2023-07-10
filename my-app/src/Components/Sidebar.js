@@ -28,7 +28,7 @@ const showMenu = () => setMenu(!menu);
     </li>
   <li
   ><a className='nav-link' href='#projects'>Projects</a>
-      <p>View some of the projects I've done reccently. </p>
+      <p>View some of the projects I've done recently. </p>
   </li>
   <li>
     <a className='nav-link' href='#contact'>Contact</a>

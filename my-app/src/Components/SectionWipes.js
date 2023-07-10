@@ -1,6 +1,11 @@
 import React from 'react';
 import '../Styles/Home.css'
 import { Controller, Scene } from 'react-scrollmagic';
+//Component Imports
+import About from './Page Sections/About';
+import Brands from './Page Sections/Brands';
+import Testimonials from './Page Sections/Testimonials';
+import Work from './Page Sections/Work';
 
 
 const SectionWipes = () => (
@@ -12,22 +17,22 @@ const SectionWipes = () => (
       </Scene>
       <Scene pin>
         <div className="panel two">
-        <div>ABOUT</div> 
+       <About />
         </div>
       </Scene>
       <Scene pin>
         <div className="panel three">
-            <div>BRANDS</div>
+          <Brands/>
         </div>
       </Scene>
       <Scene pin>
         <div className="panel four">
-            <div>TESTIMONIALS</div>
+        <Testimonials />
         </div>
       </Scene>
       <Scene pin>
         <div className="panel five">
-            <div>WORK/CONTACT</div>
+           <Work />
         </div>
       </Scene>
     </Controller>

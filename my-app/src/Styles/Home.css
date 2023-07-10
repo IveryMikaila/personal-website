@@ -90,7 +90,7 @@ h1.home-title{
     color: var(--black) !important;
 }
 
-@media screen and (max-width:667px){
+@media screen and (max-width:1000px){
     .animation-container{
         width: 100%;
         }
@@ -106,27 +106,13 @@ h1.home-title{
         position: relative;
     }
     h1.home-title{
-        font-size: 25px;
+        font-size: 30px;
     }
     
 }
-@media screen and (max-height:500px){
-    .animation-container{
-        width: 100%;
-        }
-        .panel.one {
-            background-size: contain;
-        }
-    .home-container{
-        flex-direction: column;
-    } 
-    .home-section{
-        width: 100%;
-        padding-left: 10px;
-        position: relative;
-    }
+@media (min-width:850px) and (max-width:1000px) {
     h1.home-title{
-        font-size: 25px;
+        font-size: 40px;
     }
-    
+
 }
