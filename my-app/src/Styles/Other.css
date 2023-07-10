@@ -32,12 +32,9 @@
 
 .brand-wrapper{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    width: 100%;
-    min-height: 100vh;
-    min-height: calc(var(--vh, 1vh)*100);
-    margin: 0;
-    grid-gap: 2px
+    grid-template-columns: 50% 50%;
+   grid-auto-rows: 50dvh;
+   grid-gap: 2px;
 }
 
 .brand-card{
@@ -49,6 +46,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+  
 }
 .brand-content{
    background-color: var(--white);
@@ -69,7 +67,6 @@
     opacity: 1;
 }
 
-/* Brand Fonts */
 .brand-oree{
     font-family: "theme-font"; 
 }

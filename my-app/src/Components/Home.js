@@ -1,7 +1,8 @@
 import '../Styles/Home.css'
-import ScrollAnimation from './SectionWipes';
 import Navigation from './Sidebar'
+import ScrollAnimation from './ScrollAnimation'
 import resume from '../assets/MIvery_Resume.pdf'
+
 
 const Home = () => {
   return (
