@@ -75,7 +75,7 @@ h1.home-title{
   background-position: center;
   overflow: hidden;
 }
-.about, .brands{
+.about, .brands,.testimonials, .work{
     background-color: var(--white);
 }
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../Styles/Other.css'
+import '../../Styles/Brands.css'
 
 const Brands = () => {
   return (
