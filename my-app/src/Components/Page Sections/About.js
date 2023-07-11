@@ -4,6 +4,7 @@ import '../../Styles/About.css'
 const About = () => {
   return (
     <div className='about-container'>
+    <a id='about'></a>
     <h1 className='about-main-heading'>About me</h1>
     <h2 className='about-second-heading'>My passion involves collaborating with teams in agile environments to faithfully translate wireframes into websites that satisfy my client's needs. I also enjoy studying the latest frontend technologies in order to sharpen my skills and bring innovation to any webpage I code.</h2>
     <div className='about-content-wrapper'>
