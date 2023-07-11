@@ -34,7 +34,7 @@ body{
    display: flex;
    flex-direction: column;
    justify-content: space-around;
-   padding-left: 30px;
+  padding: 30px 0px 0px 30px;
    font-family: "secondary-font";
 }
 .home-section a{
@@ -73,8 +73,84 @@ h1.home-title{
     background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  overflow: hidden;
 }
 .about, .brands{
     background-color: var(--white);
 }
 
+/* Responsive Design */
+@media (min-width:100px) and (max-width:300px) {
+  
+    .home-container{
+        flex-direction: column;
+    }
+    .home-section{
+        width: 100%;
+        justify-content: space-between;
+    }
+    h1.home-title{
+        font-size: 20px;
+    }
+    .home-button{
+        padding: 10px;
+    }
+    .animation-container{
+        width: 100%;
+    }
+    .about{
+        position: relative;
+    }  
+
+}
+@media screen and (max-height:414px){
+    .slide{
+        position: relative;
+    }
+    .home-container{
+        flex-direction: column;
+    }
+    .home-section{
+        width: 100%;
+        position: relative;
+        justify-content: space-between;
+        padding: 50px;
+    }
+    h1.home-title{
+        font-size: 20px;
+    }
+    .home-button{
+        padding: 10px;
+    }
+    .animation-container{
+        width: 100%;
+    }
+    .about{
+        position: relative;
+    } 
+
+}
+@media (min-width:300px) and (max-width:900px) {
+ 
+    .home-container{
+        flex-direction: column;
+    }
+    .home-section{
+        width: 100%;
+    }
+    .animation-container{
+        width: 100%;
+    }
+    .about{
+        position: relative;
+    }
+  
+}
+/* Nest Hub Device ONLY */
+@media only screen 
+    and (device-width : 1024px) 
+    and (device-height: 600px) { 
+        .about{
+            position: relative;
+        }
+     }

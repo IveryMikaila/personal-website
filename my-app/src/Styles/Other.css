@@ -45,8 +45,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-  
+    text-align: center; 
 }
 .brand-content{
    background-color: var(--white);
@@ -61,6 +60,7 @@
     justify-content: center;
     align-items: center;
     font-family: "secondary-font";
+    padding: 10px;
 }
 
 .brand-card:hover > .brand-content{
@@ -81,4 +81,21 @@
 }
 .moojy-font2{
     font-family: "moojy-two";
+}
+/* Responsive Design */
+@media (min-width:100px) and (max-width:300px) {
+    .brand-card h1{
+        font-size: 16px;
+    }
+    .brand-content{
+        font-size: 10px;
+    }
+}
+@media screen and (max-height:414px){
+    .brand-card h1{
+        font-size: 16px;
+    }
+    .brand-content{
+        font-size: 10px;
+    }  
 }
