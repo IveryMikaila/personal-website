@@ -12,10 +12,13 @@
     src: url('../assets/DidactGothic-Regular.ttf');
 }
 
-body{
-    margin: 0;
-    width: 100%;
+body, html {
+    border: 0;
     height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
 }
 
 /* Homepage Styles */
@@ -73,12 +76,14 @@ h1.home-title{
     background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  overflow: hidden;
 }
-.about, .brands,.testimonials, .work{
+.about, .brands, .work{
     background-color: var(--white);
 }
-
+.testimonials{
+    color: var(--white);
+    background-color: var(--black);
+}
 /* Responsive Design */
 @media (min-width:100px) and (max-width:300px) {
   
