@@ -112,7 +112,7 @@ className='contact-form'
     name='message'
     value={form.message}
     onChange={handleChange}
-    placeholder="What do you want to say?"
+    placeholder="What do you want to say? (Please add a phone number or email address with your message)"
     />
   </label>
   <button

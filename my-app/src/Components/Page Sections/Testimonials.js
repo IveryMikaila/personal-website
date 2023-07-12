@@ -13,7 +13,7 @@ let pagnationDotOne =  document.querySelector('.dot1');
 let pagnationDotTwo =  document.querySelector('.dot2');
 let pagnationDotThree =  document.querySelector('.dot3');
 
-testimony.innerHTML = `" ONE Lorem ipsum dolor sit amet. Eum quae nihil rem veniam asperiores et modi pariatur non dolorem harum et natus omnis et voluptatum facilis ut inventore expedita. "`
+testimony.innerHTML = `" Always available to help, incredibly proficient, hits deadlines without fail, hard-working, and trustworthy. In my experience, I can recommend her services without hesitation. "`
 name.innerHTML = `Ray Miah`
 position.innerHTML = `Founder at Orée Nyc`
 pagnationDotOne.innerHTML = `⦿`
@@ -29,7 +29,7 @@ function changeTestimony2(){
   let pagnationDotTwo =  document.querySelector('.dot2');
   let pagnationDotThree =  document.querySelector('.dot3');
   
-  testimony.innerHTML = `" TWO Lorem ipsum dolor sit amet. Eum quae nihil rem veniam asperiores et modi pariatur non dolorem harum et natus omnis et voluptatum facilis ut inventore expedita. "`
+  testimony.innerHTML = `" I was looking for a Web professional who would code and design my website. Mikaila delivers exactly what I want. It’s always a pleasure working and seeing her. "`
   name.innerHTML = `Cameal Richardson`
   position.innerHTML = `Creative Director at Brooklyn House of Hair`
   pagnationDotOne.innerHTML = `◦`
@@ -45,7 +45,8 @@ function changeTestimony2(){
     let pagnationDotTwo =  document.querySelector('.dot2');
     let pagnationDotThree =  document.querySelector('.dot3');
     
-    testimony.innerHTML = `" THREE Lorem ipsum dolor sit amet. Eum quae nihil rem veniam asperiores et modi pariatur non dolorem harum et natus omnis et voluptatum facilis ut inventore expedita. "`
+    testimony.innerHTML = `"  Working on a small team with Mikaila is always fun and productive at the same time. She's very empathetic toward everyone's ideas. Highly recommend. 
+    "`
     name.innerHTML = `Raffa Valleon`
     position.innerHTML = `Project Manager at Boy Blondey`
     pagnationDotOne.innerHTML = `◦`
@@ -57,7 +58,7 @@ function changeTestimony2(){
   return (
     <div id='testimonials' className='testimony-container' >
     <div className='text-container'>
-      <h1 className='text-message'>&#x22;	Lorem ipsum dolor sit amet. Eum quae nihil rem veniam asperiores et modi pariatur non dolorem harum et natus omnis et voluptatum facilis ut inventore expedita.&#x22;</h1>
+      <h1 className='text-message'>&#x22;	Always available to help, incredibly proficient, hits deadlines without fail, hard-working, and trustworthy. In my experience, I can recommend her services without hesitation. &#x22;</h1>
       <h3 className='text-name'>Ray Miah</h3>
       <p className='text-position'>Founder of Orée Nyc</p>
       <div className='pagnation'>
