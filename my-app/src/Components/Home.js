@@ -1,5 +1,5 @@
 import '../Styles/Home.css'
-import Navigation from './Sidebar'
+import Nav from './Nav';
 import ScrollAnimation from './ScrollAnimation'
 import resume from '../assets/MIvery_Resume.pdf'
 
@@ -12,7 +12,7 @@ const Home = () => {
   {/* ---------Section 1---------- */}
 <div className='home-section'>
     {/* Menu */}
-  <Navigation /> 
+   <Nav />
 {/* Home Intro Section */}
   <div className='home-intro'>
 <h1 className='home-title'>Hello. I'm a freelance frontend developer</h1>
