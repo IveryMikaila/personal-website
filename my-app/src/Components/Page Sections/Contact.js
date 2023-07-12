@@ -30,8 +30,37 @@ const [form, setForm] = useState({
 // Loading Screen
 const [loading,setLoading] = useState(false);
 
-const handleChange =(e) =>{}
-const handleSubmit =(e) =>{}
+const handleChange =(e) =>{
+const {name, value} = e.target;
+setForm({...form, [name]:value})
+}
+const handleSubmit =(e) =>{
+  e.preventDefault();
+  setLoading(true);
+  emailjs.send('service_pjayrmj','template_2ktuhb7', {
+    from_name: form.name,
+    to_name:'Mikaila',
+    from_email: form.email,
+    to_email: 'iverymikaila@gmail.com',
+    message: form.message
+  },
+  'DABggeLWPnYionIgA'
+  ).then(() =>{
+    setLoading(false);
+    alert('Thank you! I will get back to you as soon as possible.')
+    setForm(
+      {
+        name:'',
+        email:'',
+        message:''
+      })
+  },(error)=>{
+    setLoading(false);
+    console.log(error);
+    alert('There was an error ⚠️')
+  })
+
+}
 
   return (
     <div id='contact' className='contact-wrapper'>
