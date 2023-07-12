@@ -53,6 +53,8 @@
 
 /* Slider Styles */
 .work-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
     min-height: 100dvh;
     width: 100%;
     display: flex;
@@ -120,3 +122,22 @@ background-size: cover;
     background-image: url('../assets/moojy2.jpg');
     background-size:cover ;
 }
+/* Responsive Design */
+@media screen and (max-width:667px){
+    .project-slide{
+        width: 100%;
+    }   
+}
+@media screen and (max-height:414px){
+    .project-slide{
+        width: 55%;
+    }
+}
+@media only screen 
+    and (device-width : 912px) 
+    and (device-height: 1368px) { 
+        .project-slide{
+            width: 100%;
+        }  
+
+     }
