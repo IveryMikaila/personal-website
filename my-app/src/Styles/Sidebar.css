@@ -11,16 +11,13 @@
     font-family: "secondary-font";
     src: url('../assets/DidactGothic-Regular.ttf');
 }
-.icon-wrapper{
-    padding: 20px;
-    display: inline-block;
-    background-color: var(--white);
-    border-radius: 50px;
-}
+
 .nav-icon{
-    font-size: 30px;
+    font-size: 70px;
     color: var(--black);
     background-color: var(--white);
+    border-radius: 50px;
+    padding: 20px;
     cursor: pointer;
 }
 .nav-container{
@@ -49,13 +46,13 @@
 /* Responsive Design */
 @media (min-width:100px) and (max-width:300px) {
     .nav-icon{
-        font-size: 20px;
+        font-size: 40px;
+        padding: 10px;
     } 
-    .icon-wrapper{
-        padding:10px ;
-    }
     .nav-wrapper.active{
        width: 70%; 
+       height: 30dvh;
+        overflow: scroll;
     }
 }
 @media (min-width:301px) and (max-width:900px) {
