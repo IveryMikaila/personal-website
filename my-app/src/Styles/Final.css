@@ -141,3 +141,88 @@ background-size: cover;
         }  
 
      }
+
+     /* Contact Styles */
+     .contact-wrapper{
+        min-height: 100dvh;
+        background-color: #F1F1F1;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+     .form-container{
+        background-color: var(--black);
+        width: 95%;
+        height: 70dvh;
+        padding: 40px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+     }
+   .contact-heading{
+    font-size: 27px;
+    font-family: "theme-font";
+   }
+   .contact-title{
+    margin-right: 5px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   }
+     .color{
+        color: var(--accent-color);
+     }
+     .contact-info{
+        font-family: "secondary-font";
+     }
+     .socialMedia a{
+        color: var(--accent-color);
+        font-size: 32px;
+        margin: 10px;
+     }
+
+     .contact-form{
+        background-color: var(--white);
+        border-radius: 5px;
+        color: var(--black);
+        font-family: "secondary-font";
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        font-size: 20px;
+        width: 60%;
+     }
+     .contact-form input{
+    border: none;
+       border-bottom: 1px solid var(--black);
+       margin: 10px;
+       width: 80%;
+       font-family: "secondary-font";
+       font-size: 16px;
+     }
+     .contact-message{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+     }
+     .contact-message textarea{
+        font-family: "secondary-font";
+     }
+     .contact-message span{
+        margin-bottom: 10px;
+     }
+
+     .contact-button{
+      text-align: left;
+      width: max-content;
+      padding: 10px;
+      margin-top: 20px;
+      font-family: "secondary-font";
+      background-color: var(--white);
+      cursor: pointer;
+      border: 1px solid var(--black);
+     }
+     /* Responsive Design */

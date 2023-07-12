@@ -4,8 +4,7 @@ import '../../Styles/Brands.css'
 const Brands = () => {
   return (
    <>
-   <div className='brand-wrapper'>
-    <a id='clients'></a>
+   <div id='clients' className='brand-wrapper'>
     {/* Brand 1 */}
    <div className='brand-card oree'>
       <h1 className='brand-oree'>Orée Nyc</h1>

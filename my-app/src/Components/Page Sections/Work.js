@@ -8,8 +8,7 @@ const Work = () => {
 
   return (
     <>
-    <div className='work-container'>
-      <a id='projects'></a>
+    <div id='projects' className='work-container'>
   <h1 className='work-title'>
     Projects
   </h1>

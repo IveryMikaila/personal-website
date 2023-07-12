@@ -55,8 +55,7 @@ function changeTestimony2(){
 
 
   return (
-    <div className='testimony-container' >
-      <a id='testimonials'></a>
+    <div id='testimonials' className='testimony-container' >
     <div className='text-container'>
       <h1 className='text-message'>&#x22;	Lorem ipsum dolor sit amet. Eum quae nihil rem veniam asperiores et modi pariatur non dolorem harum et natus omnis et voluptatum facilis ut inventore expedita.&#x22;</h1>
       <h3 className='text-name'>Ray Miah</h3>
