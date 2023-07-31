@@ -13,7 +13,7 @@ let pagnationDotOne =  document.querySelector('.dot1');
 let pagnationDotTwo =  document.querySelector('.dot2');
 let pagnationDotThree =  document.querySelector('.dot3');
 
-testimony.innerHTML = `" Always available to help, incredibly proficient, hits deadlines without fail, hard-working, and trustworthy. In my experience, I can recommend her services without hesitation. "`
+testimony.innerHTML = `" Mikaila has been a tremendous asset to our brand. She consistently meets deadlines, surpasses expectations when help is required, and displays an exceptional work ethic. I wholeheartedly endorse her services and highly recommend her without reservation. "`
 name.innerHTML = `Ray Miah`
 position.innerHTML = `Founder at Orée Nyc`
 pagnationDotOne.innerHTML = `⦿`
@@ -30,8 +30,8 @@ function changeTestimony2(){
   let pagnationDotThree =  document.querySelector('.dot3');
   
   testimony.innerHTML = `" I was looking for a Web professional who would code and design my website. Mikaila delivers exactly what I want. It’s always a pleasure working and seeing her. "`
-  name.innerHTML = `Cameal Richardson`
-  position.innerHTML = `Creative Director at Brooklyn House of Hair`
+  name.innerHTML = `Portia Magwaza`
+  position.innerHTML = `Creative Director at Waist Away by Moojy`
   pagnationDotOne.innerHTML = `◦`
   pagnationDotTwo.innerHTML = `⦿`
   pagnationDotThree.innerHTML = `◦`
@@ -58,7 +58,7 @@ function changeTestimony2(){
   return (
     <div id='testimonials' className='testimony-container' >
     <div className='text-container'>
-      <h1 className='text-message'>&#x22;	Always available to help, incredibly proficient, hits deadlines without fail, hard-working, and trustworthy. In my experience, I can recommend her services without hesitation. &#x22;</h1>
+      <h1 className='text-message'>&#x22;	Mikaila has been a tremendous asset to our brand. She consistently meets deadlines, surpasses expectations when help is required, and displays an exceptional work ethic. I wholeheartedly endorse her services and highly recommend her without reservation. &#x22;</h1>
       <h3 className='text-name'>Ray Miah</h3>
       <p className='text-position'>Founder of Orée Nyc</p>
       <div className='pagnation'>

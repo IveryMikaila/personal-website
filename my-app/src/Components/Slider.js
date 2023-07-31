@@ -11,7 +11,7 @@ const Slider = () => {
 <Link to={'https://boyblondey.com/'} target='_blank' className='project-slide slide1'>
     <div className='project-wrapper'>
     <h3 className='project-name'>Boy Blondey</h3>
-<p className='project-description'>Customized Shopify theme template that aligns with basic web development standards and SEO requirements</p>
+<p className='project-description'>Custom code for Shopify liquid theme for a small indie brand. </p>
     </div>  
 </Link>
 
@@ -25,22 +25,18 @@ const Slider = () => {
 </Link>
 
 
+<Link to={'https://waistawaybymoojy.com/'} target='_blank' className='project-slide slide4'>
+    <div className='project-wrapper'>
+    <h3 className='project-name'>Waist Away by Moojy</h3>
+<p className='project-description'>Custom code and web design in Shopify Liquid for this chic e-commerce business.</p>
+    </div>  
+</Link>
 
 
 <Link to={'https://brooklynhouseofhairllc.com/'} target='_blank' className='project-slide slide3'>
     <div className='project-wrapper'>
     <h3 className='project-name'>Brooklyn House of Hair</h3>
-<p className='project-description'>Customized web design/code for hero section and Shopify theme template.</p>
-    </div>  
-</Link>
-
-
-
-
-<Link to={'https://cb9d00.myshopify.com/'} target='_blank' className='project-slide slide4'>
-    <div className='project-wrapper'>
-    <h3 className='project-name'>Waist Away by Moojy</h3>
-<p className='project-description'>Customized Shopify theme template that aligned with basic web development standards and SEO requirements</p>
+<p className='project-description'>E-commerce web build made with custom Shopify Liquid.</p>
     </div>  
 </Link>
 

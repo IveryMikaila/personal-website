@@ -107,6 +107,7 @@
 
 /* Images */
 .slide1{
+    margin-left: 10px;
 background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/078/505/original/pixelcut_11.JPG?1682275025');
 background-size: cover;
 }
@@ -117,6 +118,7 @@ background-size: cover;
 .slide3{
     background-image: url('../assets/hair2.png');
     background-size: cover;
+    margin-right: 10px;
 }
 .slide4{
     background-image: url('../assets/moojy2.jpg');
