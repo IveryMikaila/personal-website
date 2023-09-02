@@ -1,7 +1,7 @@
 import '../Styles/Home.css'
 import Navigation from './Navigation';
 import ScrollAnimation from './ScrollAnimation'
-import resume from '../assets/MIvery_Resume.pdf'
+import resume from '../assets/Resume_MikailaIvery.pdf'
 
 
 const Home = () => {
@@ -22,7 +22,7 @@ const Home = () => {
   {/* Home Footer */}
   <div className='home-footer'>
     Check me out on <a href='https://www.linkedin.com/in/mikaila-ivery-259218223/' target='_blank'>Linkedin</a>, <a href='https://www.shecodes.io/graduates/28712-mikaila-ivery' target='_blank'>SheCodes</a>, and <a href='https://github.com/IveryMikaila' target='_blank'>GitHub.</a>
-    <p>Download <a href={resume} download="Resume">my resume </a>(PDF 85kb).</p>
+    <p>Download <a href={resume} download="Resume_MikailaIvery">my resume </a>(PDF 132kb).</p>
   </div>
 </div>
 

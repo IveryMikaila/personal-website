@@ -10,7 +10,8 @@ const Brands = () => {
       <h1 className='brand-oree'>Orée Nyc</h1>
       <div className='brand-content'>
         <h3>Orée Nyc</h3>
-Hired to design and code web designs and wireframes for landing pages. Technologies used include Canva, HTML5, CSS3, Bootstrap, and JavaScript.
+Hired to design and code web designs/ wireframes using custom HTML, CSS, JavaScript, and Adobe Photoshop for the company website.
+
 </div>
     </div>
        {/* Brand 2 */}

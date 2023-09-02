@@ -20,7 +20,7 @@ const Slider = () => {
 <Link to={'https://www.oreenyc.com/'} target='_blank' className='project-slide slide2'>
     <div className='project-wrapper'>
     <h3 className='project-name'>Orée Nyc</h3>
-<p className='project-description'>Innovative web design/code for product launches and landing pages.</p>
+<p className='project-description'>Innovative web design/code for company website.</p>
     </div>  
 </Link>
 
