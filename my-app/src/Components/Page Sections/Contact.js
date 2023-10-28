@@ -29,7 +29,7 @@ const Contact = () => {
     >
 <h1 className='contact-heading'>Let's discuss something <span className='color'>cool</span> together</h1>
 
-<form className='form' action="https://formsubmit.co/iverymikaila@gmail.com" method="POST">
+<form className='form' action="https://formsubmit.co/3eb6e70e372c121ab0080897ce5d4208 " method="POST">
 <input type="hidden" name="_subject" value="New Contact Form Inquiry"/>
      <input type="text" name="Name" placeholder='Full Name' required />
      <input type="email" name="Email" placeholder='Email' required />

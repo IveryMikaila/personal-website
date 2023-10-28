@@ -201,6 +201,7 @@ background-size: cover;
     font-family: Arial Black;
     width: 100px;
     padding: 10px 20px;
+    cursor: pointer;
 }
         /* Form Thank You Page */
         .form-thanks{
