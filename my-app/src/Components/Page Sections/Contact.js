@@ -31,11 +31,10 @@ const Contact = () => {
 
 <form className='form' action="https://formsubmit.co/iverymikaila@gmail.com" method="POST">
 <input type="hidden" name="_subject" value="New Contact Form Inquiry"/>
-<input type="hidden" name="_captcha" value="false"/>
-     <input type="text" name="name" placeholder='Full Name' required />
-     <input type="email" name="email" placeholder='Email' required />
-     <input type="text" name="number" placeholder='Phone Number' required />
-     <textarea name='message' placeholder='Message' rows={4} required></textarea>
+     <input type="text" name="Name" placeholder='Full Name' required />
+     <input type="email" name="Email" placeholder='Email' required />
+     <input type="text" name="Number" placeholder='Phone Number' required />
+     <textarea name='Message' placeholder='Message' rows={4} required></textarea>
      <input type="hidden" name="_next" value="https://mikailaivery.com/thanks"/>
      <button className='form-btn' type="submit">Send</button>
 </form>
