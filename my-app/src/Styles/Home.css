@@ -3,17 +3,13 @@
     --white:#FFFFFF;
     --accent-color:#F62680;
 }
-@font-face {
-    font-family: "theme-font";
-    src: url('../assets/ArchivoBlack-Regular.ttf');
-}
-@font-face {
-    font-family: "secondary-font";
-    src: url('../assets/DidactGothic-Regular.ttf');
-}
+
 *{
     box-sizing: border-box;
 }
+html {
+    overflow-x: hidden;
+  }
 body, html {
     border: 0;
     height: 100%;

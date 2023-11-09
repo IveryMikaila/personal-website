@@ -2,6 +2,7 @@ import '../Styles/Home.css'
 import Navigation from './Navigation';
 import ScrollAnimation from './ScrollAnimation'
 import resume from '../assets/Resume_MikailaIvery.pdf'
+import '../Styles/Styles.css'
 
 
 const Home = () => {

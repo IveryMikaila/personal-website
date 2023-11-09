@@ -3,14 +3,7 @@
     --white:#FFFFFF;
     --accent-color:#F62680;
 }
-@font-face {
-    font-family: "theme-font";
-    src: url('../assets/ArchivoBlack-Regular.ttf');
-}
-@font-face {
-    font-family: "secondary-font";
-    src: url('../assets/DidactGothic-Regular.ttf');
-}
+
 
 .about-container{
     background-color:var(--white) ;

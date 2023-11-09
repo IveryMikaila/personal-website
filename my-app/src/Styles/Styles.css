@@ -1,0 +1,19 @@
+/* Main Fonts */
+@font-face {
+    font-family: "theme-font";
+    src: url('../assets/archivo-black/ArchivoBlack-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../assets/archivo-black/ArchivoBlack-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../assets/archivo-black/ArchivoBlack-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../assets/archivo-black/ArchivoBlack-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../assets/archivo-black/ArchivoBlack-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../assets/archivo-black/ArchivoBlack-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  }
+  @font-face {
+    font-family: "secondary-font";
+    src: url('../assets/Didact_Gothic/DidactGothic-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../assets/Didact_Gothic/DidactGothic-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../assets/Didact_Gothic/DidactGothic-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../assets/Didact_Gothic/DidactGothic-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../assets/Didact_Gothic/DidactGothic-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../assets/Didact_Gothic/DidactGothic-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  }
