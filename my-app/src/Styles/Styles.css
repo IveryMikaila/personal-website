@@ -17,3 +17,7 @@
          url('../assets/Didact_Gothic/DidactGothic-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
          url('../assets/Didact_Gothic/DidactGothic-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
   }
+
+  html{
+     background-color: black;
+  }
