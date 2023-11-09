@@ -67,6 +67,9 @@ h1.home-title{
     width: 50%;
     position: relative;
 }
+::-webkit-scrollbar {
+    display: none;
+}
 .slide{
     min-height: 100dvh;
     position: sticky;
