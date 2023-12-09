@@ -196,6 +196,14 @@ background-size: cover;
     padding: 10px 20px;
     cursor: pointer;
 }
+
+.webCreds{
+    color: var(--accent-color);
+    font-family: "secondary-font";
+    font-size: 10px;
+    align-self: flex-end;
+    margin-right: 15px;
+}
         /* Form Thank You Page */
         .form-thanks{
             display: flex;
